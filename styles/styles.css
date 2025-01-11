@@ -161,4 +161,121 @@
 
  .vision-menu {
     display: flex;
+    justify-content: space-between;
+
  }
+
+ .vision-card-1 {
+    border: none;
+    width: 340px;
+    height: 260px;
+    border-radius: 16px;
+    background-color: rgba(84, 144, 245, 0.2);
+    padding: 32px;
+
+ }
+
+ .vision-card-2 {
+   border: none;
+   width: 340px;
+   height: 260px;
+   border-radius: 16px;
+   background-color: rgba(198, 228, 214, 1);
+   padding: 32px;
+}
+
+.vision-card-3 {
+   border: none;
+   width: 340px;
+   height: 260px;
+   border-radius: 16px;
+   background-color: rgba(247, 235, 207, 1);
+   padding: 32px;
+}
+
+.vision-card-1 p {
+   padding-bottom: 15px;
+}
+
+.vision-card-2 p {
+   padding-bottom: 35px;
+}
+
+.vision-card-3 p {
+   padding-bottom: 15px;
+}
+
+.btn-vision-1 {
+    padding: 11px 20px;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+    background-color: #5490F5;
+    color: white;
+    
+}
+
+.btn-vision-2 {
+   padding: 11px 20px;
+   border: none;
+   font-size: 16px;
+   font-weight: 600;
+   border-radius: 8px;
+   background-color: #09A15C;
+   color: white;
+}
+
+.btn-vision-3 {
+   padding: 11px 20px;
+   border: none;
+   font-size: 16px;
+   font-weight: 600;
+   border-radius: 8px;
+   background-color: #FFC239;
+   color: white;
+}
+
+/* Quote Section */
+
+.quote {
+   background-image: url(/assets/quote-bg.png);
+   background-repeat: no-repeat;
+   background-position-y: 40px;
+   background-position-x: 25px;
+   margin-top:32px;
+   border: 1px solid #D5D6D8;
+   background-color: #FFFFFF;
+   border-radius: 16px;
+   padding: 48px 24px;
+   /* height: 256px; */
+   
+}
+
+.quote-details {
+   
+   color:rgba(14, 14, 14, 0.8);
+   font-size: 16px;
+}
+
+.name-position {
+   
+   color: rgba(14, 14, 14, 0.8);
+   font-size: 20px;
+   font-weight: 600;
+}
+
+.name {
+   padding-bottom: 0;
+   margin-bottom: 0;
+}
+
+.position {
+   font-size: 16px;
+   color: rgba(14, 14, 14, 0.6);
+   font-weight:normal;
+   padding-top: 4px;
+   margin-top: 4px;
+}
+
+ 
