@@ -1,0 +1,123 @@
+.fira-sans {
+    font-family: "Fira Sans", serif;
+    font-optical-sizing: auto;
+    font-weight:normal;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+      /* margin: 0; */
+
+     width: 1280px; 
+     margin:auto;
+
+
+
+
+}
+
+
+/* Common Styles */
+
+  .dark-green {
+    color: #006A50;
+  }
+
+  .bg-dark-green {
+    background-color: #006A50;
+  }
+
+  .bg-light-green {
+    background-color: #C6E4D6;
+  }
+
+  .textcolor {
+    color: white;
+  }
+
+  .btn-border-radius {
+    border-radius: 8px;
+  }
+
+  .btn-font {
+    font-family: "Fira Sans", serif;
+    font-weight: 600;
+
+  }
+
+  /* Navigation Bar */
+.navbar {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+ nav h2 {
+    margin-top: 31px;
+    margin-bottom: 51px;
+    /* margin-left: 160px;
+    margin-right: 900px; */
+} 
+
+
+
+.btn-sign-in {
+    padding: 15px 30px;
+    border: 1px solid #006A50;
+    border-color: #006A50;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: "Fira Sans", serif;
+}
+
+/* Banner Section */
+
+ .banner-content {
+    /* width: 622px; */
+    padding-top: 117px;
+    padding-bottom: 117px;
+    
+ }
+ 
+ .banner-content h1 {
+    font-weight: bold;
+    font-size: 56px;
+    margin-top: 0;
+    margin-bottom: 0;
+ }
+
+ .banner-content h3 {
+    font-weight: 500;
+    font-size:24px;
+    margin-bottom: 16px;
+    opacity: 50%;
+
+ }
+
+ 
+    
+ .banner-section {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    border: none;
+    border-radius: 24px;
+    width: 1280px;
+    margin: auto;
+    margin-bottom: 80px;
+    
+ }
+
+ .btn-explore-new-bd {
+    padding: 17px 34px;
+    border: none;
+    font-size: 18px;
+    margin-top: 24px;
+    
+ }
+
+ .banner-picture {
+    width: 474px;
+    height: 400px;
+    /* padding: 80px 60px 80px 64px; */
+ }
