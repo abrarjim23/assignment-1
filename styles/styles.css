@@ -473,3 +473,58 @@ time, .news-blog-description {
   .donate-card-list h1 {
    text-align: center;
   }
+
+  .amount {
+   margin-top:32px;
+
+  }
+
+  #btn-amount {
+   width: 1032px;
+   height: 64px;
+   border: none;
+   border-bottom: 1px solid rgba(14, 14, 14, 0.2);
+   text-align: center;
+   display: block;
+   margin: auto;
+   font-size: 24px;
+  }
+
+  ::placeholder {
+
+   color: rgba(14, 14, 14, 0.3);
+  }
+
+  .btn-donate {
+   border-radius: 8px;
+   background-color: #006A50;
+   color: white;
+   border-radius: 8px;
+   margin-top: 32px;
+   margin-left: 564px;
+   padding: 20px;
+   font-size: 18px;
+   font-weight: 600;
+   border: none;
+
+  }
+
+  /* Newsletter Section */
+.newsletter-title {
+   font-size: 40px;
+   font-weight: bold;
+   color: #0E0E0E;
+   text-align: center;
+}
+
+.newsletter-description {
+   margin-top: 24px;
+   margin-bottom: 32px;
+   font-size: 16px;
+   color: rgba(14, 14, 14, 0.7);
+   text-align: center;
+
+}
+
+
+  
