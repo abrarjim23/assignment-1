@@ -568,3 +568,26 @@ time, .news-blog-description {
    color: rgba(14, 14, 14, 0.7);
    margin-top: 24px;
 }
+
+/* Footer Section */
+
+.footer-section {
+
+      height: 226px;
+   background-color: white;
+}
+
+.footer-title {
+   margin-top: 80px;
+   padding-top: 50px;
+   font-size: 32px;
+   text-align: center;
+}
+
+.footer-icon-set {
+   display: flex;
+   justify-content: center;
+   gap: 23px;
+   margin-top: 32px;
+   margin-bottom: 50px;
+}
