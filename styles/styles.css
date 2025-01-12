@@ -7,12 +7,15 @@
       "wdth" 100;
       /* margin: 0; */
 
+     
+
+}
+
+.body-style {
+
      width: 1280px; 
      margin:auto;
      background-color: #F1F1F3;
-
-
-
 
 }
 
@@ -286,6 +289,10 @@
    margin-top: 80px;
 }
 
+.opinion-title {
+   font-size: 40px;
+}
+
 .opinion-table {
    border: 1px solid #D5D6D8;
    background-color: #FFFFFF;
@@ -417,8 +424,6 @@ time, .news-blog-description {
    margin-top: 80px;
 }
 
-
-
 .donate-title{
 
    font-size: 40px;
@@ -437,7 +442,6 @@ time, .news-blog-description {
 
 .donate-card-list {
    display: flex;
-   /* gap: 24px; */
    justify-content: space-evenly;
    
 
@@ -451,7 +455,6 @@ time, .news-blog-description {
    font-size: 30px;
    font-weight: bold;
    color: rgba(14, 14, 14, 0.8);
-   /* padding: 30px; */
    width: 240px;
    height: 128px;
 
@@ -465,10 +468,7 @@ time, .news-blog-description {
 .duisho-tk {
    background-color: (198, 228, 214, 1)
 }
-/* .money-text-align-center {
-   text-align: center;
-}
-  */
+
 
   .donate-card-list h1 {
    text-align: center;
@@ -542,10 +542,12 @@ time, .news-blog-description {
 
 #enter-email {
    font-size: 16px;
-   /* padding: 18px 40px; */
+  
    border: none;
-   border-radius: 8px;
-   
+  
+   border-right: none;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
    padding-left: 40px;
    width: 600px;
    height: 55px;
@@ -553,7 +555,10 @@ time, .news-blog-description {
 
 .btn-subscribe {
    border: none;
-   border-radius: 8px;
+  
+   border-left: none;
+   border-top-right-radius: 8px;
+   border-bottom-right-radius: 8px;
    font-size: 18px;
    font-weight: 600;
    padding: 17px 34px;
@@ -571,10 +576,14 @@ time, .news-blog-description {
 
 /* Footer Section */
 
+
+
 .footer-section {
 
-      height: 226px;
+   
+   height: 226px;
    background-color: white;
+  
 }
 
 .footer-title {
@@ -591,3 +600,4 @@ time, .news-blog-description {
    margin-top: 32px;
    margin-bottom: 50px;
 }
+
