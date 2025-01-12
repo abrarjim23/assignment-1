@@ -586,6 +586,11 @@ time, .news-blog-description {
   
 }
 
+hr {
+   width: 1122px;
+   opacity: 0.3;
+}
+
 .footer-title {
    margin-top: 80px;
    padding-top: 50px;
