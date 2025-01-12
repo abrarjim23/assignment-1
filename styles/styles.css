@@ -510,6 +510,14 @@ time, .news-blog-description {
   }
 
   /* Newsletter Section */
+
+.newsletter {
+   margin-top: 80px;
+   padding: 80px 265px;
+   background-color: rgba(198, 228, 214, 1);
+   border-radius: 24px;
+}
+
 .newsletter-title {
    font-size: 40px;
    font-weight: bold;
@@ -526,5 +534,37 @@ time, .news-blog-description {
 
 }
 
+.call-to-action-section {
+   display:flex;
+   justify-content: center;
+   
+}
 
-  
+#enter-email {
+   font-size: 16px;
+   /* padding: 18px 40px; */
+   border: none;
+   border-radius: 8px;
+   
+   padding-left: 40px;
+   width: 600px;
+   height: 55px;
+}
+
+.btn-subscribe {
+   border: none;
+   border-radius: 8px;
+   font-size: 18px;
+   font-weight: 600;
+   padding: 17px 34px;
+   color: white;
+   background-color: #006A50;
+
+}
+
+.subscribe-section-note {
+   text-align: center;
+   font-size: 16px;
+   color: rgba(14, 14, 14, 0.7);
+   margin-top: 24px;
+}
